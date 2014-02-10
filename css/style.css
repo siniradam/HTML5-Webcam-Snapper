@@ -1,0 +1,58 @@
+/*********************
+*** 2013 ** Eylül  ***
+*** Koray KIRCAOĞLU **
+*** OhShiftLabs.com **
+*********************/
+
+* {
+	margin:0px;
+}
+
+body {
+	background:#ccc;
+	font-family:helvetica,arial,tahoma;
+	font-size:10pt;
+}
+
+.main {
+	margin:4px;
+	border-radius:6px;
+	background:#fff;
+}
+
+video {
+	margin:5px;
+	float:left;
+}
+
+.holder {
+	float:left;
+	width: 576px;
+	height: 341px;
+}
+
+.btn {
+	cursor:pointer;
+	text-align:center;
+	line-height:25px;
+	height:25px;
+	display:inline-block;
+	color:#fff;
+	background:#74BAC4;
+	border-radius:6px;
+	margin:2px;
+	padding:0 5px;
+}
+
+.snaps {
+	width:560px;
+	margin-top:5px;
+}
+
+.snaps img{
+	width:25%;
+}
+
+.reset {
+	clear:both;
+}

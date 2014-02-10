@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>OhShift Snapper</title>
+<meta http-equiv="Content-Language" content="tr">
+<meta name="description" content="WebCam Snapper">
+<meta name="keywords" content="ohshift,snapper,webcam">
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> 
+</head>
+<body>
+<div class="main" id="main">
+	<div class="controlbox">
+		<div class="btn" id="start" style="display:none;"> Start / Stop </div>
+		<div class="btn" id="count"> Please allow camera access. </div>
+	</div>
+    
+	<video id="video" width="448" height="336" autoplay></video>
+	<div class="holder">
+		<div class="snaps"></div>
+	</div>
+	
+	<div class="reset"></div>
+</div>
+</body>
+</html>
